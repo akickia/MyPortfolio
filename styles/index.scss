@@ -37,6 +37,9 @@ i {
     padding: 3%;
 }
 
+.fa-cat {
+    font-size: 30rem;
+}
 .webpage {
     margin: 2%;
     padding: 1%;
@@ -52,4 +55,34 @@ i {
 
 footer {
     margin-top: 3%;
+}
+
+@media screen and (max-width:1400px) {
+    .fa-cat {
+        font-size: 25rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .fa-cat {
+        font-size: 20rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .fa-cat {
+        font-size: 15rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .fa-cat {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .fa-cat {
+        font-size: 25rem;
+    }
 }
