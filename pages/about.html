@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1aafbbb739.js" crossorigin="anonymous"></script>
     <title>About</title>
 </head>
 <body>
@@ -42,37 +44,137 @@
             </div>
           </nav>
     </header>
-    <main class="container d-flex flex-column">
-        <div class="card bg-light text-black" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">
-            <img src="../images/notebook.jpg" class="card-img" alt="notebook">
-            <div class="card-img-overlay">
-                <h1 class="card-title">Welcome! </h1>
-                <p class="card-text">My name is Kicki Lindstrand and I'm a junior Frontend developer.</p>
-                <p class="card-text">I love learning new things and as the world of programing is opening I get more and more excited. This is my first project made with Bootstrap. </p>
-            </div>
+    <main class="container">
+        <div class="row justify-content-center">
+          <div class="col-10 card-body">
+            <h1>About me</h1>
           </div>
-        
-        
+          <div class="col-sm-6 card card-about">
+            <h2 class="card-title">Facts</h2>
+            <p class="card-text"><u>Name:</u> Kicki Lindstrand<br>
+              <u>Age:</u> 40 years old<br>
+              <u>Location:</u> Eskilstuna, Sweden<br>
+              <u>Status:</u> Married to Martin since 2016. <br>
+              <u>Children:</u> Ronja - 12 years, Lukas - 9 years and Ebba - 5 years old.</p>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-sm-4 card card-about g-3">
+            <h3 class="card-title">I like <i class="fa fa-thumbs-up"></i></h3>
+            <ul class="card-text">
+              <li>My family</li>
+              <li>Equality</li>
+              <li>Jigsaw-puzzels</li>
+              <li>Walks in nature</li>
+              <li>Learning new things</li>
+              <li>Music</li>
+              <li>Strawberries</li>
+              <li>Spring</li>
+              <li>Coffee!</li>
+            </ul>
+          </div>
+          <div class="col-sm-4 card card-about g-3">
+            <h3 class="card-title">I don't like <i class="fa fa-thumbs-down"></i></h3>
+            <ul class="card-text">
+              <li>Injustice</li>
+              <li>Mushrooms (eating them - looking for them in the forest is nice!)</li>
+              <li>Intolerance</li>
+              <li>Winter</li>
+              <li>Design</li>
+              <li>Spiders</li>
+              <li>Wasps</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <img src="../images/colors.png">
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-sm-5 card card-about g-3">
+            <h4 class="card-title"><i class="fa fa-school"></i> When I'm at work </h4> 
+            <p class="card-text">I am very ambitious in my work and take it seriously. I am good at structure, organizing and seeing the big picture. I learn new things fast, and if I don't know the answer I will find a way to solve it. 
+              As a preeschool teacher I'm used to reflect about my actions and my achievements in order to evaluate and improve. 
+            I find relations and comunication very interesting and have spent a lot of time studying it to make sure my messages are clear, directed to the right reciever and is understood correctly. I'm also very good at 
+            expressing myself in wrighting. This goes mainly for my first language Swedish, but I'm actively working on my English skills. 
+            </p>
+            <p class="card-text">Equality har always been an important value to me. I've worked alot for bringing awareness to my colleagues about discrimination of people depending on for instanse sex, religion, etnicity or sexual orientation. 
+              I find diversity important and developing and I'm always open to meeting new people. I've always worked hard to give every child in my care the time and attention they need and want, and the comfort to make a child feel safe and seen. 
+              I also try to always have a minute for each parent and colleague that needs it. </p>
+              <p class="card-text">I've been a mentor for students from the university since 2017 and 2019 I started to mentor new colleauges in Eskistuna kommun in an extended introducion together with three other experienced preschool teachers. 
+                I have held lectures in the introduction and in other work-meetings about for instance group dynamics, systematic quality work and LGBTQ (HBTQ).</p>
+              <p class="card-text">My ambition and wish to always give every child what they need is unfourtunatly stressfull and at many times impossible with the amont of work that is demanded, and the stress is affecting my health in a negative way. 
+                I therefore had to take the hard decision that I need to do something else in the future. I'm currently on leave to study. </p>
+                <p class="card-text">My decision has grown in time and I'm now certain that this is the right call. I can handle stressfull periods, in fact it makes me more efficient, and I am confident that a work in IT will suit me better. I will never regret 
+                  all the experience and the wonderful relationships I've been able to be part of during my years in the preeschool, but now it's time to find new roads ahead!</p>
+          </div>
           
-          <div class="row d-flex justify-content-center">
-            <div class="card text-dark bg-info mb-3" style="max-width: 60rem;">
-                <div class="card-body text-lg-center">
-                    <h5 class="card-title">Education</h5>
-                    <p class="card-text">I'm currently studying IT:Tech for women at Sundsgårdens folkhögskola. This is an intensive course for becoming a front end developer working with HTML, CSS, JavaScript, agile workingmethods and libraries like Bootstrap and React.</p>
-                    <p class="card-text"><small class="text-muted">For more information about the course, press the button to checkout Sundgårdens webbpage.</small></p>
-                    <a href="https://sundsgarden.se/utbildningar-kurser/langa-kurser/yrkesutbildningar/it-tech-for-women/" class="btn btn-secondary" target="_blank">IT:Tech for women</a>
-                </div>
-            </div>
+          <div class="col-sm-5 card card-about g-3">
+            <h4 class="card-title"><i class="fa fa-house-user"></i> When I'm at home</h4>
+            <p class="card-text">I have learned the importancy of recovery and mindfullness, so when I'm at home I try not to have too much on my schedule. I love to spend my time with a large jigsaw-puzzel, a crossword or playing solitare. A good movie with the family is also very nice.</p>
+            <p class="card-text">With three kids there are a lot of logistics to take in consideration, and studying at home has been a great help. I can plan my hours to that we can take part in the childrens activitys and even go to the gym now and then, and still have enough time to complete my assignments.
+              My hopes for the future is therefore a remote or hybrid work as a junior front end developer, or a work in my hometown. 
+            </p>
+            <p class="card-text">As said in the text about me at work I am good at structure and organization, and that runs through my personal life as well. I have good dicipline when it comes to study or work, and I do what I'm supposed to do in my workhours. I don't like to deliver work that is half-done, 
+              I look through it a lot of times for small errors and have an eye for the details to be correct. That meens that I can spend a lot of time getting everyting right, but on the other hand I work fast and efficient.</p>
+            <p class="card-text">Me and the family live in a house in the outskirts of Eskilstuna. We have a caravan that we love to travel with to different locations when we are on vaccation.</p>
           </div>
-          <div class="card-body"></div>
-        </main>
+        </div>
+        <div class="row justify-content-center">
+          
+          <div class="col-sm-9 card card-about g-3">
+            <h4 class="card-title"><i class="fa fa-code"></i> Why I'm coding</h4>
+            <p class="card-text">In september 2021 I finally took the decision to leave the preeschool. I had no idea what to do instead and looked into different options. My husband, Martin works in cybersecurity, and he sugested that I should look into coding sense I'm a fast learner, logical and structured. 
+              I thought he was nuts. I had no experience and felt like I didn't understand anything about computers, even if I've always been a frekvent user and used digital tools in my work a lot. I started searching information online, asking Martin all questions I could think of, and took a few online classes. 
+              I got a bit used to the thought that coding and it might acctually be someting that would suit me very well! </p>
+              <p class="card-text">In the winter 2021 I gathered a lot of knowledge and facts, and in january 2022 I took a leave from work to attend the intense course "IT: Tech for women" that is a front end education for women and non-binary in five months.</p>
+              <p class="card-text">I'm still a beginner of course, but by now I've learned the basics of CSS and HTML. I know how to use sass, SEO, Figma, Git and Github. I have recently started to use Bootstrap and I'm learning it at the moment. In a few weeks we will start the last module that covers JavaScript and React</p>
+              <p class="card-text">Besides from this course I've attended courses online covering JavaScript, Python and HTMl/CSS.</p>
+              <p class="card-text">I totaly get that I have SO much left to learn, but I'm starting to get a sense of how it is to work, and I hope to land an internship or trainee program the summer or fall of 2022. </p>
+                <p class="card-text">Let me know if I can be of interest for your company. </p>
+                <img class="card-img" src="../images/code.jpg">
+            </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-sm-4 card-about card g-3">
+            <h5 class="card-title">Pros</h5>
+            <ul class="card-text">
+              <li>Ambitious</li>
+              <li>Fast learner</li>
+              <li>Problem solver</li>
+              <li>Flexible</li>
+              <li>Stabile and experienced in life</li>
+              <li>Caring and service-minded</li>
+              <li>Not afraid to take the lead in groups</li>
+              <li>Can present infront of others</li>
+            </ul>
+          </div>
+          <div class="col-sm-4 card card-about g-3 card">
+            <h5 class="card-title">Cons</h5>
+            <ul class="card-text">
+              <li>Beginner</li>
+              <li>Non-experienced in the field</li>
+              <li>Can be a perfectionist</li>
+              <li>Needs hybrid or remote work</li>
+              <li>Not a designer - don't have an eye for the estetics</li>
+              <li>Isn't good at mingling or small-talk</li>
+            </ul>
+          </div>
+          <div class="row">
+            <img src="../images/colors.png">
+          </div>
+        </div>
+    </main>
 
     <footer class="card">
-        <div class="card-footer d-flex justify-content-around">
-             <p class="card-text">kicki.lindstrand@gmail.com</p>
-            <p class="card-text"><small class="text-muted">All rights reserved</small></p>
-        </div>
-    </footer>
+      <div class="card-footer d-flex justify-content-around">
+          <p class="card-text">kicki.lindstrand@gmail.com</p>
+          <div class="card-text footer__links">
+            <a href="http://facebook.se/akickia" target="_blank"><i class="fa fa-facebook-f"></i></a>
+            <a href="http://www.linkedin.com/in/kicki-lindstrand" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="http://instagram.com/akickia" target="_blank"><i class="fa fa-instagram"></i></a>
+          </div>
+      </div>        
+  </footer>
 
     
     
